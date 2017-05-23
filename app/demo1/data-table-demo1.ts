@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { DataTableResource } from 'ng2-datatable-bootstrap4';
+
+import { DataTableResource } from '../../node_modules/ng2-datatable-bootstrap4/dist/src/tools/data-table-resource';
+
 import persons from './data-table-demo1-data';
 
 

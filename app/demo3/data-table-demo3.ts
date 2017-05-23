@@ -1,5 +1,9 @@
 import { Component, ViewChild } from '@angular/core';
-import { DataTable, DataTableTranslations, DataTableResource } from 'angular-2-data-table';
+
+import { DataTable } from '../../node_modules/ng2-datatable-bootstrap4/dist/src/components/table.component';
+import { DataTableTranslations } from '../../node_modules/ng2-datatable-bootstrap4/dist/src/components/types';
+import { DataTableResource } from '../../node_modules/ng2-datatable-bootstrap4/dist/src/tools/data-table-resource';
+
 import { films } from './data-table-demo3-data';
 
 

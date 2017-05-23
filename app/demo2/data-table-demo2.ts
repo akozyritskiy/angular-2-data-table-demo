@@ -1,7 +1,9 @@
 import { Component, ViewChild } from '@angular/core';
-import { DataTable, DataTableResource } from 'angular-2-data-table';
-import { cars } from './data-table-demo2-data';
 
+import { DataTable } from '../../node_modules/ng2-datatable-bootstrap4/dist/src/components/table.component';
+import { DataTableResource } from '../../node_modules/ng2-datatable-bootstrap4/dist/src/tools/data-table-resource';
+
+import { cars } from './data-table-demo2-data';
 
 @Component({
   selector: 'data-table-demo-2',
